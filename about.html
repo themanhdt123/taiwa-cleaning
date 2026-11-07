@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Về Chúng Tôi - TAIWA CLEANING JAPAN</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: #f8fafc; color: #1e293b; line-height: 1.6; }
+        
+        /* Header & Nav */
+        header { background: #ffffff; box-shadow: 0 2px 10px rgba(0,0,0,0.05); position: sticky; top: 0; z-index: 100; }
+        .nav-container { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 1rem 2rem; }
+        .logo { font-size: 1.5rem; font-weight: 700; color: #0d9488; text-decoration: none; display: flex; align-items: center; gap: 8px; }
+        .nav-links { display: flex; gap: 2rem; list-style: none; }
+        .nav-links a { text-decoration: none; color: #475569; font-weight: 600; transition: color 0.3s; }
+        .nav-links a:hover, .nav-links a.active { color: #0d9488; }
+
+        /* Page Banner */
+        .banner { background: linear-gradient(135deg, #0d9488 0%, #0284c7 100%); color: white; padding: 3rem 2rem; text-align: center; }
+        .banner h1 { font-size: 2.2rem; margin-bottom: 0.5rem; }
+        .banner p { opacity: 0.9; font-size: 1.1rem; }
+
+        /* Main Container */
+        .container { max-width: 1000px; margin: 3rem auto; padding: 0 2rem; }
+
+        /* About Section Card */
+        .card { background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); border: 1px solid #e2e8f0; margin-bottom: 2rem; }
+        .card h2 { color: #0f172a; margin-bottom: 1.5rem; display: flex; align-items: center; gap: 10px; border-bottom: 2px solid #f1f5f9; padding-bottom: 0.8rem; }
+        .card h2 i { color: #0d9488; }
+
+        /* Company Profile Table */
+        .profile-table { width: 100%; border-collapse: collapse; }
+        .profile-table th, .profile-table td { padding: 1.2rem 1rem; border-bottom: 1px solid #f1f5f9; text-align: left; }
+        .profile-table th { width: 30%; background-color: #f8fafc; color: #334155; font-weight: 600; }
+        .profile-table td { color: #475569; }
+
+        /* Member List */
+        .highlights { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 1rem; }
+        .highlight-item { background: #f0fdf4; border: 1px solid #bbf7d0; padding: 1.2rem; border-radius: 8px; }
+        .highlight-item h3 { color: #166534; font-size: 1.1rem; margin-bottom: 0.5rem; }
+        .highlight-item p { color: #15803d; font-size: 0.95rem; }
+
+        /* Back Button */
+        .btn-back { display: inline-flex; align-items: center; gap: 8px; background: #e2e8f0; color: #334155; padding: 0.6rem 1.2rem; border-radius: 8px; text-decoration: none; font-weight: 600; transition: background 0.3s; margin-top: 1rem; }
+        .btn-back:hover { background: #cbd5e1; }
+
+        /* Footer */
+        footer { background: #0f172a; color: white; text-align: center; padding: 2rem; margin-top: 4rem; }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo"><i class="fa-solid fa-broom"></i> TAIWA CLEANING</a>
+            <ul class="nav-links">
+           <li><a href="themanhweb.html">Trang Chủ</a></li>
+           <li><a href="themanhweb.html#services">Dịch Vụ</a></li>
+           <li><a href="themanhweb.html#pricing">Bảng Giá</a></li>
+           <li><a href="about.html" class="active">Giới Thiệu</a></li>
+           <li><a href="themanhweb.html#contact">Liên Hệ</a></li>
+           </ul>
+        </div>
+    </header>
+
+    <!-- Banner -->
+    <section class="banner">
+        <h1>Giới Thiệu Về Công Ty</h1>
+        <p>Thông tin hồ sơ năng lực và cam kết chất lượng dịch vụ của TAIWA CLEANING JAPAN</p>
+    </section>
+
+    <!-- Content Container -->
+    <div class="container">
+        <!-- Card 1: Thông tin công ty (会社概要) -->
+        <div class="card">
+            <h2><i class="fa-solid fa-building"></i> Hồ Sơ Doanh Nghiệp (会社概要)</h2>
+            <table class="profile-table">
+                <tr>
+                    <th>Tên Công Ty</th>
+                    <td><strong>TAIWA CLEANING JAPAN CO., LTD.</strong> (Tên dự kiến)</td>
+                </tr>
+                <tr>
+                    <th>Ngày Thành Lập</th>
+                    <td>01/04/2027</td>
+                </tr>
+                <tr>
+                    <th>Địa Chỉ Trụ Sở</th>
+                    <td>〒981-4200 宮城県加美郡加美町羽場字山鳥210 田川ホープ住宅3-702</td>
+                </tr>
+                <tr>
+                    <th>Số Điện Thoại</th>
+                    <td>070 4565 6311 (Đang cập nhật)</td>
+                </tr>
+                <tr>
+                    <th>Địa Chỉ Email</th>
+                    <td>themanhdt@gmail.com</td>
+                </tr>
+                <tr>
+                    <th>Quy Mô Nhân Sự</th>
+                    <td>5 Thành viên chuyên nghiệp ()</td>
+                </tr>
+                <tr>
+                    <th>Lĩnh Vực Hoạt Động</th>
+                    <td>
+                        • Vệ sinh tổng hợp phòng trọ dọn đi / chuyển vào ()<br>
+                        • Vệ sinh nhà ở cá nhân, biệt thự gia đình ()<br>
+                        • Vệ sinh bàn giao công trình xây dựng & cải tạo (・ dọn dẹp sau thi công)
+                    </td>
+                </tr>
+                <tr>
+                    <th>Bằng Cấp & Bằng Bảo Hiểm</th>
+                    <td>
+                        • Chứng chỉ chuyên môn vệ sinh nhà ở ()<br>
+                        • Bảo hiểm trách nhiệm dân sự thương hại ()
+                    </td>
+                </tr>
+            </table>
+        </div>
+<!-- Card Giám Đốc / Nhà Sáng Lập -->
+<div class="card">
+    <h2><i class="fa-solid fa-user-tie"></i> Lời Chào Từ Giám Đốc (代表挨拶)</h2>
+    <div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: center; margin-top: 1.5rem;">
+        <!-- Khung chứa ảnh -->
+        <div style="flex: 1; min-width: 200px; text-align: center;">
+            <img src="director.jpg" alt="Giám Đốc Hayasaka Vu" style="width: 100%; max-width: 220px; height: 260px; object-fit: cover; border-radius: 8px; border: 3px solid #0d9488; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+            <p style="margin-top: 0.5rem; font-weight: bold; color: #0f172a;">Hayasaka Vu</p>
+            <p style="font-size: 0.9rem; color: #64748b;">Giám Đốc Đại Diện</p>
+        </div>
+        <!-- Khung chứa lời chào -->
+        <div style="flex: 2; min-width: 280px;">
+            <h3 style="color: #0d9488; margin-bottom: 0.8rem;">Luôn tận tâm trong từng chi tiết nhỏ nhất</h3>
+            <p style="color: #475569; margin-bottom: 1rem; line-height: 1.7;">
+                Xin chào quý khách hàng và các đối tác. Tôi là <b>Hayasaka Vu</b>, đại diện cho TAIWA CLEANING JAPAN. Với kinh nghiệm thực tế và tinh thần trách nhiệm cao, chúng tôi luôn đặt chất lượng bàn giao sạch sẽ lên hàng đầu, đáp ứng những tiêu chuẩn khắt khe nhất tại thị trường Nhật Bản.
+            </p>
+            <p style="font-weight: 600; color: #1e293b; text-align: right;">
+                TAIWA CLEANING JAPAN<br>
+                Giám Đốc: 早坂　ヴ
+            </p>
+        </div>
+    </div>
+</div>
+        <!-- Card 2: Thế mạnh công ty -->
+        <div class="card">
+            <h2><i class="fa-solid fa-star"></i> Năng Lực & Tận Tâm</h2>
+            <div class="highlights">
+                <div class="highlight-item">
+                    <h3><i class="fa-solid fa-users"></i> Đội Ngũ 5 Nhân Sự Thực Chiến</h3>
+                    <p>Thao tác nhanh gọn, tỉ mỉ, phân công công việc chuyên môn hóa từng khu vực (bếp, nhà tắm, sàn, kính).</p>
+                </div>
+                <div class="highlight-item">
+                    <h3><i class="fa-solid fa-certificate"></i> Bằng Cấp Kỹ Thuật Chuẩn</h3>
+                    <p>Sở hữu bằng cấp chuyên môn về vệ sinh nhà ở, đảm bảo đáp ứng khắt khe các tiêu chuẩn kiểm tra của công ty BĐS Nhật.</p>
+                </div>
+            </div>
+            
+            <br>
+            <a href="index.html" class="btn-back"><i class="fa-solid fa-arrow-left"></i> Quay lại Trang Chủ</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 TAIWA CLEANING JAPAN. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

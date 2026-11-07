@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dịch Vụ Vệ Sinh Chuyên Nghiệp - Uy Tín Tại Nhật Bản</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="https://yubinbango.github.io/yubinbango/yubinbango.js" charset="UTF-8"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: #f8fafc; color: #1e293b; line-height: 1.6; }
+        header { background: #ffffff; box-shadow: 0 2px 10px rgba(0,0,0,0.05); position: sticky; top: 0; z-index: 100; }
+        .nav-container { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 1rem 2rem; }
+        .logo { font-size: 1.5rem; font-weight: 700; color: #0d9488; text-decoration: none; display: flex; align-items: center; gap: 8px; }
+        .nav-links { display: flex; gap: 1.8rem; list-style: none; }
+        .nav-links a { text-decoration: none; color: #475569; font-weight: 600; transition: color 0.3s; }
+        .nav-links a:hover { color: #0d9488; }
+        .btn-primary { background: #0d9488; color: white; padding: 0.6rem 1.2rem; border-radius: 8px; text-decoration: none; font-weight: 600; border: none; cursor: pointer; transition: background 0.3s; }
+        .btn-primary:hover { background: #0f766e; }
+        .hero { background: linear-gradient(135deg, #ccfbf1 0%, #e0f2fe 100%); padding: 4rem 2rem; text-align: center; }
+        .hero-content { max-width: 800px; margin: 0 auto; }
+        .hero h1 { font-size: 2.5rem; color: #0f172a; margin-bottom: 1rem; }
+        .hero p { font-size: 1.2rem; color: #334155; margin-bottom: 2rem; }
+        .badge-list { display: flex; justify-content: center; gap: 1.5rem; margin-top: 1.5rem; flex-wrap: wrap; }
+        .badge { background: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; color: #0f766e; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        .container { max-width: 1200px; margin: 0 auto; padding: 3rem 2rem; }
+        .section-title { text-align: center; margin-bottom: 2.5rem; }
+        .section-title h2 { font-size: 2rem; color: #0f172a; }
+        .section-title p { color: #64748b; margin-top: 0.5rem; }
+        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+        .service-card { background: white; border-radius: 12px; padding: 2rem; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); border: 1px solid #e2e8f0; transition: transform 0.3s; }
+        .service-card:hover { transform: translateY(-5px); }
+        .service-icon { width: 60px; height: 60px; background: #e0f2fe; color: #0284c7; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; margin-bottom: 1rem; }
+        .service-card h3 { margin-bottom: 0.5rem; color: #1e293b; }
+        .service-card p { color: #64748b; font-size: 0.95rem; }
+        .pricing-section { background: white; border-radius: 12px; padding: 2rem; margin-top: 3rem; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); }
+        table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+        th, td { padding: 1rem; text-align: left; border-bottom: 1px solid #e2e8f0; }
+        th { background-color: #f1f5f9; color: #334155; }
+        .contact-form { max-width: 650px; margin: 3rem auto 0; background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); }
+        .form-group { margin-bottom: 1.2rem; }
+        .form-group label { display: block; margin-bottom: 0.5rem; font-weight: 600; color: #334155; }
+        .form-group input, .form-group textarea { width: 100%; padding: 0.8rem; border: 1px solid #cbd5e1; border-radius: 8px; font-size: 1rem; }
+        footer { background: #0f172a; color: white; text-align: center; padding: 2rem; margin-top: 4rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo"><i class="fa-solid fa-broom"></i> TAIWA CLEANING</a>
+            <ul class="nav-links">
+                <li><a href="about.html" style="color: #0d9488; font-weight: bold;">Giới Thiệu</a></li>
+                <li><a href="#services">Dịch Vụ</a></li>
+                <li><a href="#pricing">Bảng Giá</a></li>
+                <li><a href="#calculator">Tính Giá Thử</a></li>
+                <li><a href="#contact">Liên Hệ</a></li>
+            </ul>
+            <a href="#contact" class="btn-primary">Nhận Báo Giá</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Dịch Vụ Vệ Sinh Phòng Trọ & Nhà Ở Chuyên Nghiệp</h1>
+            <p>Giải pháp dọn dẹp căn hộ khi chuyển đi, chuyển vào và vệ sinh công trình bàn giao tiêu chuẩn cao tại Nhật Bản.</p>
+            <div class="badge-list">
+                <span class="badge"><i class="fa-solid fa-shield-halved"></i> Đã Mua Bảo Hiểm</span>
+                <span class="badge"><i class="fa-solid fa-check"></i> Nghiệm Thu Chuẩn Công Ty BĐS</span>
+                <span class="badge"><i class="fa-solid fa-clock"></i> Đúng Giờ & Phục Vụ Tận Tâm</span>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <section id="services">
+            <div class="section-title">
+                <h2>Dịch Vụ Trọng Tâm</h2>
+                <p>Chúng tôi đáp ứng đầy đủ các tiêu chuẩn khắt khe nhất của thị trường bất động sản Nhật Bản</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-boxes-packing"></i></div>
+                    <h3>Vệ Sinh Phòng Chuyển Đi</h3>
+                    <p>Tổng vệ sinh sạch sẽ toàn bộ căn hộ sau khi khách dọn đồ đi. Tẩy rửa vết dầu mỡ nhà bếp, ố vàng nhà tắm, sục rửa thoát sàn và lau chùi ban công.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-key"></i></div>
+                    <h3>Vệ Sinh Trước Nhập Cư</h3>
+                    <p>Khử trùng, lau bụi tỉ mỉ, khử mùi sinh hoạt cũ để sẵn sàng đón chủ nhà hoặc khách thuê mới chuyển vào ở ngay lập tức.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-building"></i></div>
+                    <h3>Vệ Sinh Bàn Giao Công Trình</h3>
+                    <p>Dọn dẹp bụi xi măng, sơn thừa, vết keo dán trên kính và sàn nhà sau khi công trình hoàn thành hoặc sau sửa chữa nội thất.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="pricing-section">
+            <div class="section-title">
+                <h2>Bảng Giá Tham Khảo</h2>
+                <p>Chi phí thực tế có thể thay đổi tùy thuộc vào mức độ bẩn và diện tích thực tế</p>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Cấu Trúc Phòng (Mitori)</th>
+                        <th>Diện Tích Trung Bình</th>
+                        <th>Giá Vệ Sinh Phòng Chuyển Đi (Chưa Thuế)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>1K / 1DK</strong></td>
+                        <td>~ 20 m²</td>
+                        <td>18,000 円 ~ 25,000 円</td>
+                    </tr>
+                    <tr>
+                        <td><strong>1LDK / 2K</strong></td>
+                        <td>~ 35 m²</td>
+                        <td>28,000 円 ~ 38,000 円</td>
+                    </tr>
+                    <tr>
+                        <td><strong>2LDK / 3K</strong></td>
+                        <td>~ 50 m²</td>
+                        <td>40,000 円 ~ 55,000 円</td>
+                    </tr>
+                    <tr>
+                        <td><strong>3LDK / Nhà Riêng</strong></td>
+                        <td>~ 70 m² +</td>
+                        <td>Báo giá chi tiết sau khi khảo sát</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="calculator" style="padding: 4rem 0 2rem; max-width: 1000px; margin: 0 auto;">
+            <div style="background: white; padding: 2.5rem; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); text-align: center;">
+                <h2 style="color: #0f172a; margin-bottom: 0.5rem;"><i class="fa-solid fa-calculator" style="color: #0d9488;"></i> Công Cụ Tính Chi Phí Dự Kiến (概算見積もり)</h2>
+                <p style="color: #64748b; margin-bottom: 2rem;">Vui lòng chọn loại hình căn hộ của quý khách để mở bảng tính chi tiết</p>
+
+                <div style="display: flex; justify-content: center; align-items: center; gap: 1rem; flex-wrap: wrap;">
+                    <label style="font-weight: bold; color: #334155;">Chọn loại phòng (間取り):</label>
+                    <select id="mainRoomSelect" style="padding: 0.8rem 1.2rem; font-size: 1rem; border-radius: 6px; border: 1px solid #cbd5e1; outline: none; background: #f8fafc;">
+                        <option value="1k">1R / 1K (Căn hộ đơn thân ~25m²)</option>
+                        <option value="1dk">1DK / 1LDK (Căn hộ 1 phòng ngủ ~40m²)</option>
+                        <option value="2ldk">2K / 2DK / 2LDK (Căn hộ 2 phòng ngủ ~60m²)</option>
+                        <option value="3ldk">3DK / 3LDK (Căn hộ 3 phòng ngủ ~80m²)</option>
+                        <option value="house">戸建て (Nhà nguyên căn / Biệt thự)</option>
+                    </select>
+                    <button type="button" onclick="openCalcModal()" style="padding: 0.8rem 1.8rem; background: #0d9488; color: white; border: none; border-radius: 6px; font-weight: bold; cursor: pointer; transition: 0.3s;">
+                        <i class="fa-solid fa-magnifying-glass"></i> 検索 (Tính Chi Phí)
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-form">
+            <div class="section-title" style="margin-bottom: 1.5rem;">
+                <h2>Gửi Yêu Cầu Báo Giá</h2>
+            </div>
+            
+            <form action="https://formspree.io/f/mljjalwz" method="POST" class="h-adr">
+                <span class="p-country-name" style="display:none;">Japan</span>
+
+                <div class="form-group">
+                    <label>Họ và Tên / Tên Công Ty (お名前):</label>
+                    <input type="text" name="HoTen" required placeholder="Nhập tên của anh/chị">
+                </div>
+                
+                <div class="form-group">
+                    <label>Số Điện Thoại Liên Hệ (電話番号):</label>
+                    <input type="tel" name="SoDienThoai" required placeholder="090-XXXX-XXXX">
+                </div>
+
+                <div class="form-group">
+                    <label>Địa Chỉ Email (メールアドレス):</label>
+                    <input type="email" name="email" required placeholder="example@gmail.com">
+                </div>
+
+                <div class="form-group" style="background: #f8fafc; padding: 1rem; border-radius: 8px; border: 1px solid #e2e8f0;">
+                    <label style="color: #0d9488; font-weight: bold; margin-bottom: 0.5rem;">📮 Địa Chỉ Công Trình / Phòng Trọ:</label>
+
+                    <div style="margin-bottom: 0.8rem;">
+                        <label style="font-size: 0.85rem; color: #64748b; display: block;">Mã bưu điện (郵便番号) - Nhập 7 số tự động điền địa chỉ:</label>
+                        <div style="display: flex; gap: 8px; align-items: center; margin-top: 0.2rem;">
+                            <span style="font-weight: bold;">〒</span>
+                            <input type="text" class="p-postal-code" size="8" maxlength="8" placeholder="981-4263" style="width: 140px; padding: 0.5rem; border: 1px solid #cbd5e1; border-radius: 6px;">
+                            <span style="font-size: 0.8rem; color: #0284c7;">(Ví dụ: 9814263)</span>
+                        </div>
+                    </div>
+
+                    <div style="margin-bottom: 0.8rem;">
+                        <label style="font-size: 0.85rem; color: #64748b; display: block;">Tỉnh / Thành phố / Quận Huyện (Tự động điền):</label>
+                        <input type="text" class="p-region p-locality p-street-address" name="DiaChi_TinhPhuong" readonly placeholder="Tự động hiển thị khi nhập mã bưu điện..." style="background: #e2e8f0; cursor: not-allowed;">
+                    </div>
+
+                    <div>
+                        <label style="font-size: 0.85rem; color: #334155; display: block; font-weight: bold;">Số nhà / Tên tòa nhà / Số phòng (Nhập tay):</label>
+                        <input type="text" name="DiaChi_ChiTiet" required placeholder="Ví dụ: 1-2-3 Tagawa Hope Juutaku 101" style="border: 1px solid #0d9488;">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Nội Dung Yêu Cầu (ご依頼内容):</label>
+                    <textarea name="NoiDung" rows="6" placeholder="Cần vệ sinh phòng 1K chuyển đi vào ngày..."></textarea>
+                </div>
+                
+                <button type="submit" class="btn-primary" style="width: 100%; font-size: 1.1rem; padding: 0.8rem;">Gửi Thông Tin Báo Giá</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 TAIWA CLEANING JAPAN. All rights reserved.</p>
+        <p style="font-size: 0.85rem; color: #94a3b8; margin-top: 0.5rem;">Dịch vụ vệ sinh nhà ở & phòng trọ uy tín chuyên nghiệp tại Miyagi và khu vực lân cận.</p>
+    </footer>
+
+    <!-- TAB MODAL POPUP TÍNH BÁO GIÁ CHUYÊN SÂU -->
+    <div id="calcModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.6); z-index: 9999; justify-content: center; align-items: center; overflow-y: auto; padding: 1rem; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+        <div style="background: white; border-radius: 12px; max-width: 1000px; width: 95%; margin: auto; overflow: hidden; position: relative; box-shadow: 0 10px 25px rgba(0,0,0,0.2);">
+            
+            <button type="button" onclick="closeCalcModal()" style="position: absolute; top: 15px; right: 20px; background: rgba(0,0,0,0.5); color: white; border: none; font-size: 1.5rem; width: 35px; height: 35px; border-radius: 50%; cursor: pointer; z-index: 10;">&times;</button>
+
+            <div style="padding: 1.5rem 2rem; background: #0d9488; color: white;">
+                <h3 id="modalTitle" style="margin: 0; font-size: 1.4rem;">Chi Tiết Dịch Vụ & Tính Phí Dự Kiến</h3>
+            </div>
+
+            <div style="padding: 2rem; max-height: 80vh; overflow-y: auto;">
+                <div style="display: flex; gap: 1.5rem; flex-wrap: wrap; margin-bottom: 2rem; align-items: center; background: #f8fafc; padding: 1rem; border-radius: 8px; border: 1px solid #e2e8f0;">
+                    <img id="roomImage" src="1DK-Apartments-1024x765.jpg" alt="Sơ đồ mặt bằng" style="width: 100%; max-width: 260px; height: 160px; object-fit: contain; background: #fff; padding: 5px; border: 1px solid #cbd5e1; border-radius: 8px;">
+                    <div style="flex: 1; min-width: 250px;">
+                        <h4 id="roomName" style="color: #0f172a; margin-top: 0; font-size: 1.2rem;"></h4>
+                        <p style="font-weight: bold; color: #0d9488; margin-bottom: 0.5rem; font-size: 0.9rem;">Hạng mục vệ sinh tiêu chuẩn đi kèm:</p>
+                        <ul id="roomFeatures" style="padding-left: 1.2rem; color: #475569; font-size: 0.85rem; margin: 0; line-height: 1.5;">
+                        </ul>
+                    </div>
+                </div>
+
+                <h4 style="color: #0f172a; border-bottom: 2px solid #0d9488; padding-bottom: 0.4rem; margin-bottom: 1rem; font-size: 1.1rem;">Tùy Chọn Chi Tiết Căn Hộ:</h4>
+                
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 0.8rem; margin-bottom: 1.5rem;">
+                    
+                    <!-- 1. VỊ TRÍ TẦNG & THANG MÁY -->
+                    <div style="background: #fff; padding: 0.6rem; border: 1px solid #e2e8f0; border-radius: 6px; grid-column: 1 / -1;">
+                        <label style="font-weight: bold; display: block; margin-bottom: 0.3rem; color: #334155; font-size: 0.85rem;">🏢 Vị trí tầng & Thang máy (階数・エレベーター):</label>
+                        <div style="display: flex; gap: 0.8rem; align-items: center; flex-wrap: wrap;">
+                            <div style="flex: 1; min-width: 160px;">
+                                <label style="font-size: 0.75rem; color: #64748b; display: block; margin-bottom: 0.2rem;">Thang máy:</label>
+                                <select id="optElevator" onchange="calculateFloorFee()" style="width: 100%; padding: 0.4rem; border-radius: 4px; border: 1px solid #cbd5e1; font-size: 0.85rem;">
+                                    <option value="no">❌ Không có thang máy (階段のみ)</option>
+                                    <option value="yes">⭕ Có thang máy (エレベーターあり)</option>
+                                </select>
+                            </div>
+                            <div style="flex: 1; min-width: 120px;">
+                                <label style="font-size: 0.75rem; color: #64748b; display: block; margin-bottom: 0.2rem;">Chọn Tầng (階数):</label>
+                                <input type="number" id="optFloorInput" value="1" min="1" max="50" oninput="calculateFloorFee()" style="width: 100%; padding: 0.4rem; border-radius: 4px; border: 1px solid #cbd5e1; font-size: 0.85rem; text-align: center;">
+                            </div>
+                        </div>
+                        <div id="floorFeeNotice" style="margin-top: 0.3rem; font-size: 0.8rem; color: #0369a1; font-weight: bold; display: none;"></div>
+                    </div>
+
+                    <!-- 2. Loại Sàn Nhà -->
+                    <div style="background: #fff; padding: 0.6rem; border: 1px solid #e2e8f0; border-radius: 6px; grid-column: 1 / -1;">
+                        <label style="font-weight: bold; display: block; margin-bottom: 0.3rem; color: #334155; font-size: 0.85rem;">🌾 Loại sàn nhà (床の種類):</label>
+                        <select id="optFloorType" onchange="calculateTotal()" style="width: 100%; padding: 0.4rem; border-radius: 4px; border: 1px solid #cbd5e1; font-size: 0.85rem;">
+                            <option value="0">Sàn nhựa đệm PVC (Cushion Floor / CF)</option>
+                            <option value="0">Sàn gỗ công nghiệp (合板フローリング)</option>
+                            <option value="2000">Chiếu Tatami (畳 - Tatami +2,000円)</option>
+                            <option value="2000">Sàn gỗ tự nhiên (無垢フローリング +2,000円)</option>
+                            <option value="3000">Sàn thảm nỉ (カーペット - Carpet +3,000円)</option>
+                        </select>
+                    </div>
+
+                    <!-- 3. Nguồn Điện -->
+                    <div style="background: #fff; padding: 0.6rem; border: 1px solid #e2e8f0; border-radius: 6px;">
+                        <label style="font-weight: bold; display: block; margin-bottom: 0.3rem; color: #334155; font-size: 0.85rem;">⚡ Nguồn điện (電気):</label>
+                        <select id="optElectricity" onchange="calculateTotal()" style="width: 100%; padding: 0.4rem; border-radius: 4px; border: 1px solid #cbd5e1; font-size: 0.85rem;">
+                            <option value="0">Có điện bình thường (通電あり)</option>
+                            <option value="2000">Đã cắt điện (+2,000円 dùng máy phát)</option>
+                        </select>
+                    </div>
+
+                    <!-- 4. Nguồn Nước & Phụ phí -->
+                    <div style="background: #fff; padding: 0.6rem; border: 1px solid #e2e8f0; border-radius: 6px;">
+                        <label style="font-weight: bold; display: block; margin-bottom: 0.3rem; color: #334155; font-size: 0.85rem;">💧 Nguồn nước (水道):</label>
+                        <select id="optWater" onchange="calculateFloorFee()" style="width: 100%; padding: 0.4rem; border-radius: 4px; border: 1px solid #cbd5e1; font-size: 0.85rem;">
+                            <option value="0">Có nước bình thường (通水あり)</option>
+                            <option value="3000">Đã cắt nước (+ Phí vận chuyển nước lên cao)</option>
+                        </select>
+                        <div id="waterFeeNotice" style="margin-top: 0.2rem; font-size: 0.75rem; color: #b45309; font-weight: bold; display: none;"></div>
+                    </div>
+
+                    <!-- 5. Chỗ đỗ xe -->
+                    <div style="background: #fff; padding: 0.6rem; border: 1px solid #e2e8f0; border-radius: 6px;">
+                        <label style="font-weight: bold; display: block; margin-bottom: 0.3rem; color: #334155; font-size: 0.85rem;">🚗 Chỗ đỗ xe (駐車場):</label>
+                        <select id="optParking" onchange="calculateTotal()" style="width: 100%; padding: 0.4rem; border-radius: 4px; border: 1px solid #cbd5e1; font-size: 0.85rem;">
+                            <option value="0">Có chỗ trong khuôn viên</option>
+                            <option value="0">Tự liên hệ / Bãi ngoài</option>
+                        </select>
+                    </div>
+
+                    <!-- 6. Ban công -->
+                    <div style="background: #fff; padding: 0.6rem; border: 1px solid #e2e8f0; border-radius: 6px;">
+                        <label style="font-weight: bold; display: block; margin-bottom: 0.3rem; color: #334155; font-size: 0.85rem;">🏞️ Ban công (バルコニー):</label>
+                        <select id="optBalcony" onchange="calculateTotal()" style="width: 100%; padding: 0.4rem; border-radius: 4px; border: 1px solid #cbd5e1; font-size: 0.85rem;">
+                            <option value="0">Không có / Không rửa</option>
+                            <option value="3000">Có (+3,000円)</option>
+                        </select>
+                    </div>
+
+                    <!-- 7. Máy lạnh -->
+                    <div style="background: #fff; padding: 0.6rem; border: 1px solid #e2e8f0; border-radius: 6px;">
+                        <label style="font-weight: bold; display: block; margin-bottom: 0.3rem; color: #334155; font-size: 0.85rem;">❄️ Vệ sinh máy lạnh (エアコン):</label>
+                        <select id="optAircon" onchange="calculateTotal()" style="width: 100%; padding: 0.4rem; border-radius: 4px; border: 1px solid #cbd5e1; font-size: 0.85rem;">
+                            <option value="0">Không cần</option>
+                            <option value="7000">1 Máy (+7,000円)</option>
+                            <option value="14000">2 Máy (+14,000円)</option>
+                            <option value="21000">3 Máy (+21,000円)</option>
+                        </select>
+                    </div>
+
+                    <!-- 8. Phủ bóng sàn Wax -->
+                    <div style="background: #fff; padding: 0.6rem; border: 1px solid #e2e8f0; border-radius: 6px;">
+                        <label style="font-weight: bold; display: block; margin-bottom: 0.3rem; color: #334155; font-size: 0.85rem;">🧹 Phủ bóng sàn Wax (ワックス):</label>
+                        <select id="optWax" onchange="calculateTotal()" style="width: 100%; padding: 0.4rem; border-radius: 4px; border: 1px solid #cbd5e1; font-size: 0.85rem;">
+                            <option value="0">Không cần</option>
+                            <option value="5000">Có phủ bóng (+5,000円)</option>
+                        </select>
+                    </div>
+
+                    <!-- 9. Mức độ bẩn -->
+                    <div style="background: #fff; padding: 0.6rem; border: 1px solid #e2e8f0; border-radius: 6px;">
+                        <label style="font-weight: bold; display: block; margin-bottom: 0.3rem; color: #334155; font-size: 0.85rem;">☣️ Mức độ bẩn (汚れ具合):</label>
+                        <select id="optDirt" onchange="calculateTotal()" style="width: 100%; padding: 0.4rem; border-radius: 4px; border: 1px solid #cbd5e1; font-size: 0.85rem;">
+                            <option value="0">Bình thường (Sạch sẽ)</option>
+                            <option value="5000">Bẩn nhiều (Mốc, dầu mỡ +5,000円)</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <!-- Khung Tổng Chi Phí & Nút Đăng Ký -->
+                <div style="text-align: center; background: #f0fdf4; border: 2px dashed #16a34a; padding: 1rem; border-radius: 8px; margin-top: 1rem;">
+                    <p style="margin: 0; color: #166534; font-size: 0.9rem; font-weight: bold;">TỔNG CHI PHÍ DỰ KIẾN (概算合計・税別):</p>
+                    <div id="totalPrice" style="font-size: 1.8rem; font-weight: bold; color: #059669; margin: 0.2rem 0;">18,000 円</div>
+                    
+                    <button type="button" onclick="applyEstimateToForm()" style="margin-top: 0.5rem; padding: 0.7rem 1.4rem; background: #16a34a; color: white; border: none; border-radius: 6px; font-weight: bold; font-size: 0.95rem; cursor: pointer; transition: 0.3s; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                        <i class="fa-solid fa-paper-plane"></i> Chuyển sang Đăng Ký Báo Giá (お申し込みへ)
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    const roomData = {
+        "1k": { name: "Căn hộ 1R / 1K (Diện tích ~25m²)", basePrice: 18000, img: "1r1k02.jpg", features: ["Vệ sinh sàn phòng ngủ & hành lang Genkan", "Vệ sinh khu bếp mini, bồn rửa & quạt hút mùi", "Tẩy cặn nhà tắm 3-trong-1 (Unit Bath) & Toilet", "Lau chùi 1 cửa sổ kính lớn & tủ quần áo"] },
+        "1dk": { name: "Căn hộ 1DK / 1LDK (Diện tích ~40m²)", basePrice: 28000, img: "1DK-Apartments-1024x765.jpg", features: ["Vệ sinh phòng khách LDK + 1 phòng ngủ riêng", "Tẩy mỡ khung bếp System Kitchen & quạt hút cỡ lớn", "Vệ sinh khép kín: Phòng tắm riêng + Toilet riêng", "Lau bồn rửa mặt Lavatory + Khay máy giặt", "Vệ sinh 2-3 bộ cửa sổ kính ban công"] },
+        "2ldk": { name: "Căn hộ 2K / 2DK / 2LDK (Diện tích ~60m²)", basePrice: 40000, img: "1DK-Apartments-1024x765.jpg", features: ["Vệ sinh phòng khách rộng + 2 phòng ngủ", "Vệ sinh toàn bộ hệ thống tủ bếp & lò nướng cá", "Đánh bóng cặn canxi gương kính & bồn tắm rộng", "Khử trùng Toilet Washlet & khu vực giặt đồ", "Lau chùi hệ thống cửa sổ các phòng & tủ âm tường"] },
+        "3ldk": { name: "Căn hộ 3DK / 3LDK (Diện tích ~80m²)", basePrice: 58000, img: "1DK-Apartments-1024x765.jpg", features: ["Vệ sinh không gian gia đình lớn (3 Phòng ngủ + LDK)", "Vệ sinh chuyên sâu bếp System Kitchen đại", "Tẩy cặn mốc phòng tắm gia đình & hệ thống quạt sấy", "Lau chùi gờ tường, công tắc, 4-6 khung cửa sổ kính"] },
+        "house": { name: "戸建て (Nhà nguyên căn / Biệt thự ~100m²)", basePrice: 75000, img: "1DK-Apartments-1024x765.jpg", features: ["Vệ sinh toàn bộ nhà 2-3 tầng (Nhiều phòng ngủ)", "Lau chùi cầu thang, tay vịn & hành lang các tầng", "Vệ sinh 2 phòng Toilet (Tầng 1 & Tầng 2)", "Tẩy rửa toàn bộ hệ thống 8-12 cửa sổ kính quanh nhà", "Vệ sinh khu vực cửa chính Genkan lớn"] }
+    };
+
+    let currentBasePrice = 0;
+    let currentFloorFee = 0;
+    let currentWaterFee = 0;
+
+    function openCalcModal() {
+        const selectElem = document.getElementById("mainRoomSelect");
+        if (!selectElem) return;
+        const selectedType = selectElem.value;
+        const data = roomData[selectedType];
+        if (!data) return;
+
+        currentBasePrice = data.basePrice;
+        document.getElementById("roomName").innerText = data.name;
+        document.getElementById("roomImage").src = data.img;
+        document.getElementById("roomFeatures").innerHTML = data.features.map(f => `<li>${f}</li>`).join('');
+
+        if(document.getElementById("optFloorType")) document.getElementById("optFloorType").value = "0";
+        if(document.getElementById("optElectricity")) document.getElementById("optElectricity").value = "0";
+        if(document.getElementById("optWater")) document.getElementById("optWater").value = "0";
+        if(document.getElementById("optElevator")) document.getElementById("optElevator").value = "no";
+        if(document.getElementById("optFloorInput")) document.getElementById("optFloorInput").value = "1";
+        if(document.getElementById("optParking")) document.getElementById("optParking").value = "0";
+        if(document.getElementById("optBalcony")) document.getElementById("optBalcony").value = "0";
+        if(document.getElementById("optAircon")) document.getElementById("optAircon").value = "0";
+        if(document.getElementById("optWax")) document.getElementById("optWax").value = "0";
+        if(document.getElementById("optDirt")) document.getElementById("optDirt").value = "0";
+        
+        currentFloorFee = 0;
+        currentWaterFee = 0;
+        document.getElementById("floorFeeNotice").style.display = "none";
+        document.getElementById("waterFeeNotice").style.display = "none";
+
+        calculateTotal();
+        document.getElementById("calcModal").style.display = "flex";
+    }
+
+    function closeCalcModal() { document.getElementById("calcModal").style.display = "none"; }
+
+    function calculateFloorFee() {
+        const hasElevator = document.getElementById("optElevator").value;
+        const floor = parseInt(document.getElementById("optFloorInput").value) || 1;
+        
+        let fee = 0;
+        if (hasElevator === "no") {
+            if (floor >= 2) fee = (floor - 1) * 1000;
+        } else {
+            if (floor >= 3) fee = Math.floor((floor - 2) / 3) * 1000;
+        }
+        currentFloorFee = fee;
+        
+        const notice = document.getElementById("floorFeeNotice");
+        if (notice) {
+            notice.style.display = "block";
+            notice.innerText = fee > 0 ? `=> Phụ phí tầng (${floor}F - ${hasElevator === 'yes' ? 'Có thang máy' : 'Không thang máy'}): +${fee.toLocaleString()} 円` : `=> Phụ phí tầng (${floor}F): 0 円 (Miễn phí)`;
+        }
+
+        const waterVal = document.getElementById("optWater").value;
+        const waterNotice = document.getElementById("waterFeeNotice");
+        
+        if (waterVal === "3000") {
+            let waterExtra = 3000 + (floor > 1 ? (floor - 1) * 500 : 0);
+            currentWaterFee = waterExtra;
+            if (waterNotice) {
+                waterNotice.style.display = "block";
+                waterNotice.innerText = `Phí vác/bơm nước (${floor}F): +${waterExtra.toLocaleString()} 円`;
+            }
+        } else {
+            currentWaterFee = 0;
+            if (waterNotice) waterNotice.style.display = "none";
+        }
+
+        calculateTotal();
+    }
+
+    function calculateTotal() {
+        const floorType = parseInt(document.getElementById("optFloorType")?.value || 0);
+        const electricity = parseInt(document.getElementById("optElectricity")?.value || 0);
+        const parking = parseInt(document.getElementById("optParking")?.value || 0);
+        const balcony = parseInt(document.getElementById("optBalcony")?.value || 0);
+        const aircon = parseInt(document.getElementById("optAircon")?.value || 0);
+        const wax = parseInt(document.getElementById("optWax")?.value || 0);
+        const dirt = parseInt(document.getElementById("optDirt")?.value || 0);
+
+        const total = currentBasePrice + currentFloorFee + currentWaterFee + floorType + electricity + parking + balcony + aircon + wax + dirt;
+        document.getElementById("totalPrice").innerText = total.toLocaleString() + " 円";
+    }
+
+    function applyEstimateToForm() {
+        const roomName = document.getElementById("roomName").innerText;
+        const totalPrice = document.getElementById("totalPrice").innerText;
+        const floorNum = document.getElementById("optFloorInput").value;
+        const elevatorText = document.getElementById("optElevator").selectedOptions[0].text;
+        const floorTypeText = document.getElementById("optFloorType").selectedOptions[0].text;
+        const electricityText = document.getElementById("optElectricity").selectedOptions[0].text;
+        const waterText = document.getElementById("optWater").selectedOptions[0].text;
+        const parkingText = document.getElementById("optParking").selectedOptions[0].text;
+        const balconyText = document.getElementById("optBalcony").selectedOptions[0].text;
+        const airconText = document.getElementById("optAircon").selectedOptions[0].text;
+        const waxText = document.getElementById("optWax").selectedOptions[0].text;
+        const dirtText = document.getElementById("optDirt").selectedOptions[0].text;
+
+        closeCalcModal();
+
+        const noiDungField = document.querySelector("textarea[name='NoiDung']");
+        if (noiDungField) {
+            noiDungField.value = `[CHI TIẾT ĐẶT LỊCH TỪ BẢNG TÍNH DỰ KIẾN]\n` +
+                `- Loại phòng: ${roomName}\n` +
+                `- Vị trí tầng & Thang máy: Tầng ${floorNum} (${elevatorText})\n` +
+                `- Loại sàn nhà: ${floorTypeText}\n` +
+                `- Nguồn điện: ${electricityText}\n` +
+                `- Nguồn nước: ${waterText} (Phí vận chuyển nước: +${currentWaterFee.toLocaleString()}円)\n` +
+                `- Chỗ đỗ xe: ${parkingText}\n` +
+                `- Ban công: ${balconyText}\n` +
+                `- Máy lạnh: ${airconText}\n` +
+                `- Phủ bóng Wax: ${waxText}\n` +
+                `- Mức độ bẩn: ${dirtText}\n` +
+                `----------------------------------------\n` +
+                `==> TỔNG CHI PHÍ DỰ KIẾN: ${totalPrice}`;
+        }
+
+        document.getElementById("contact")?.scrollIntoView({ behavior: 'smooth' });
+    }
+    </script>
+</body>
+</html>
